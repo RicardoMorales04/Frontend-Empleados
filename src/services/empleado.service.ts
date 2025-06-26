@@ -9,7 +9,7 @@ import { HttpClient, HttpHeaders, HttpErrorResponse } from '@angular/common/http
 export class EmpleadoService {
 
   //atributos
-  baseUri: string = 'http://localhost:4000/api';
+  baseUri: string = 'https://backend-empleados-4o4s.onrender.com/api';
   headers = new HttpHeaders().set('Content-Type','application/json');
 
   constructor(private http:HttpClient) { }
